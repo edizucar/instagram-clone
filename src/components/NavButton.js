@@ -1,16 +1,10 @@
 
 
 function NavButton(props){
-    let name = "navbutton";
-    if (props.bold){
-        name = "bold_" + name;
-    }
-
     return(
-        
-        <div className={name}>
-            <img className="navbuttonimg" src={props.img} alt="logo"></img>
-            <p>{props.text}</p>
+        <div className="navbutton">
+            <img className="navbuttonimg" src={props.img} alt="logo" ></img>
+            <p style={props.style}>{props.text}</p>
         </div>
     )
 }

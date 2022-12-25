@@ -15,7 +15,7 @@ function NavBar(){
         <nav className="navbar">
             <img className="instagram_logo" src={instagram_logo} alt="instagram logo"></img>
             <div className="buttons_area">
-                <NavButton bold={"true"} img={home_icon} text="Home" />
+                <NavButton img={home_icon} text="Home" style={{fontWeight:'bold'}} />
                 <NavButton img={search_icon} text="Search" />
                 <NavButton img={explore_icon} text="Explore" />
                 <NavButton img={reels_icon} text="Reels" />

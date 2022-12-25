@@ -1,0 +1,46 @@
+.navbar {
+  background-color: white;
+  width: 18%;
+  height: 100%;
+  flex-direction:column;
+  position:fixed;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbutton, .bold_navbutton{
+  margin: 10px 20px;
+  padding: 0 0px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+}
+
+.navbutton > img, .bold_navbutton > img {
+  width: 12%;
+  height: auto;  
+  transition: width 0.2s;
+}
+
+.navbutton:hover, .bold_navbutton:hover{
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+.navbutton:hover .navbuttonimg,.bold_navbutton:hover .navbuttonimg{
+  width:13%;
+}
+
+.instagram_logo {
+  width:32%;
+  margin:30px 15px;
+}
+
+.bold_navbutton{
+  font-weight: bold;
+}

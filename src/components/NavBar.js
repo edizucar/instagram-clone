@@ -1,3 +1,5 @@
+import '../css/NavBar.css';
+
 import NavButton from './NavButton'
 
 import home_icon from "../images/home-icon.png"

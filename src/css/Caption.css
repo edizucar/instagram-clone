@@ -1,0 +1,20 @@
+.caption {
+    margin: 5px 0 5px 10px;
+}
+
+.caption--account {
+    font-weight:520;
+    margin-right:5px;
+}
+
+.caption--text {
+    font-size: 0.9rem;
+}
+
+.caption--more {
+    margin-left:3px;
+    font-size: 0.9rem;
+    color: #c3c3c3;
+    font-weight: 600;
+
+}

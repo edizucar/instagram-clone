@@ -1,0 +1,16 @@
+.accountbar {
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.accountbar > img {
+    width:10%;
+    border-radius: 90px;
+}
+
+.accountbar > span {
+    font-weight: 520;
+    font-size: 0.9rem;
+}

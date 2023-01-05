@@ -1,3 +1,10 @@
+/* Colour Scheme: 
+  #FEFEFE, 
+  #B53C8A, 
+  #822976, 
+  #991DB2 */
+
+
 body {
   margin: 0;
 
@@ -20,10 +27,5 @@ code {
     monospace;
 }
 
-.app{
-  background-color: #FAFAFA; 
 
-  width:100%;
-  height: 5000px;
-}
 

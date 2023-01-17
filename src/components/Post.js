@@ -6,6 +6,10 @@ import Likes from "./Likes";
 import Caption from "./Caption";
 import Comments from "./Comments";
 
+import PopularityInformation from "./PopularityInformation";
+import InteractionInformation from "./InteractionInformation";
+import LikeInformation from "./LikeInformation";
+
 function Post({revealed,data,profile}){
     let page = 
     <div className="post">
@@ -21,6 +25,12 @@ function Post({revealed,data,profile}){
         page =
         <div className="post">
             <AccountBar account_name={data.account} profile_picture={profile}/>
+            <div className="postdata">
+                <h2 className="postdata--h2">Why am I seeing this post?</h2>
+                <LikeInformation />
+                <InteractionInformation />
+                <PopularityInformation />
+            </div>
             
         </div>
     }

@@ -1,0 +1,29 @@
+.accountprofile {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+
+    border-radius: 10%;
+    border: 2px solid;
+    border-color: rgb(102, 102, 102);
+
+    gap: 7px;
+}
+
+
+.accountprofile > img {
+    width: 50%;
+    margin-top: 7%;
+    border-radius: 90px;
+    border: 1px inset;
+    border-color: rgb(160, 160, 160);
+
+}
+
+.accountprofile > p{
+    font-weight: bold;
+    margin: 0;
+    font-size: 13px;
+
+}

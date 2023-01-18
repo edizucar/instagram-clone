@@ -1,7 +1,9 @@
-import profile1 from './images/profiles/barlebofc.jpg'
+import barlebofc from './images/profiles/barlebofc.jpg'
+import cristiano from './images/profiles/cristiano.jpg'
 
 let accounts = {
-    "barlebofc":profile1
+    "barlebofc":barlebofc,
+    "cristiano":cristiano
 }
 
 export default accounts;

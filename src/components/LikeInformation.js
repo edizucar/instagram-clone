@@ -1,23 +1,22 @@
 import '../css/LikeInformation.css';
 
-function LikeInformation() {
-    let n = 13
-    let emoji_src = "/images/dog-emoji.webp"
+function LikeInformation({topic,emoji,count}) {
+    let max_count = 20;
+    let overflow = count > max_count ? "+" : "";
+    count = Math.min(count,max_count);
+
+    let emoji_area_list = Array(count).fill(<img src={emoji} alt="emoji"></img>);
 
 
-    let emoji = <img src={emoji_src} alt="emoji"></img>
-    let emoji_area_list = Array(n).fill(emoji);
-    console.log(emoji_area_list)
-
-     return (<div className="likeinformation">
+    return (<div className="likeinformation">
         <div className='likeinformation--heart'>
             <img src={require("../images/red-heart-emoji.png")} alt="red heart"></img>
         </div>
 
         <div className="likeinformation--arrowtext">
-            <p>You have liked</p>
+            <p>You have liked {count}{overflow}</p>
             <img src={require("../images/right-arrow.png")} alt="right arrow"></img>
-            <p>{n} similar posts</p>
+            <p>{topic} posts</p>
         </div>
         
         <div className="likeinformation--emojiarea">

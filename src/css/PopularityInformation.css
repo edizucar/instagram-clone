@@ -1,0 +1,20 @@
+
+.popularityinformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20%;
+}
+
+.popularityinformation > div {
+    width:20%;
+}
+
+.popularityinformation > div > img {
+    width:100%;
+}
+
+
+.popularityinformation > p {
+    width: 30%;
+}

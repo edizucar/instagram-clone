@@ -1,0 +1,25 @@
+.interactioninformation {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid;
+}
+
+.interactioninformation > .accountprofile {
+    width: 20%;
+    
+}
+
+.interactioninformation--link {
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.interactioninformation--link > img{
+    width:30%;
+}
+

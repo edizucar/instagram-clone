@@ -4,19 +4,24 @@ import like from "../images/notifications-icon.png"
 import comment from "../images/comments-icon.png"
 import send from "../images/messages-icon.png"
 import save from "../images/save-icon.png"
+import RevealButton from "./RevealButton";
 
-function InteractionArea(){
+function InteractionArea({isRevealed,func}){
     return (
         <div className="interactionarea">
-            <div>
-                <img src={like} alt="" ></img>
-                <img src={comment} alt=""></img>
-                <img src={send} alt=""></img>
+            <div className="interactionarea--div1">
+               
+                <div><img src={like} alt="" ></img></div>
+                <div><img src={comment} alt=""></img></div>
+                <div><img src={send} alt=""></img></div>
+                <RevealButton revealed={isRevealed} eventClick={func}/>
             </div>
-            <div>
-                <img src={save} alt=""></img>
+            <div className="interactionarea--div2">
+                <div><img src={save} alt=""></img></div>
             </div>
         </div>
+
+
     )
 }
 

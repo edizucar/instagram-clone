@@ -4,6 +4,8 @@
     flex-direction: row;
     justify-content: center;
     gap:20%;
+    padding-top: 4%;
+    padding-bottom: 2%;
 }
 
 .popularityinformation > div {
@@ -12,9 +14,11 @@
 
 .popularityinformation > div > img {
     width:100%;
+    
 }
 
 
 .popularityinformation > p {
-    width: 30%;
-}
+    width: 40%;
+    text-align: center;
+}   

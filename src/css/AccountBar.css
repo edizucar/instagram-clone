@@ -14,3 +14,12 @@
     font-weight: 520;
     font-size: 0.9rem;
 }
+
+.reveal {
+    margin-left:auto;
+    width:7%;
+}
+
+.reveal > img:hover {
+    filter: opacity(50%);
+}

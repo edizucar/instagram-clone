@@ -1,12 +1,15 @@
 import '../css/AccountBar.css'
+import RevealButton from './RevealButton';
 
 
-function AccountBar(props){
+function AccountBar({profile_picture,account_name,isRevealed,func}){
     // props has attributes 'account_name' and 
     return (
         <div className="accountbar">
-            <img src={props.profile_picture} alt="profile of account"></img>
-            <span className="accountname">{props.account_name}</span>
+            <img src={profile_picture} alt="profile of account"></img>
+            <span className="accountname">{account_name}</span>
+            {isRevealed && <RevealButton isRevealed={isRevealed} eventClick={func}/>}
+            
         </div>
     )
 }

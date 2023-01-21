@@ -1,14 +1,30 @@
+
+
+
 .post {
+    margin-right: 20%;
+    border-radius: 5px;
+    background-color: white;
     border: 0.5px solid;
     border-color: rgba(0, 0, 0, 0.2);
     width:35%;
-    margin-right: 20%;
     gap:5px;
-    border-radius: 5px;
-    background-color: white;
+    transition: height 2s linear 0.5s;
 }
 
 .post > img {
     width:100%;
     margin:0;
+}
+
+
+.postdata--h2 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* border: 2px solid; */
+}
+
+.postinformation {
+    /* background-color: black; */
 }

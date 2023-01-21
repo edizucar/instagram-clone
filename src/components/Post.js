@@ -1,4 +1,5 @@
 import '../css/Post.css';
+import React from "react";
 
 import AccountBar from "./AccountBar";
 import InteractionArea from "./InteractionArea";
@@ -6,27 +7,42 @@ import Likes from "./Likes";
 import Caption from "./Caption";
 import Comments from "./Comments";
 
+
 import PopularityInformation from "./PopularityInformation";
 import InteractionInformation from "./InteractionInformation";
 import LikeInformation from "./LikeInformation";
 
-function Post({revealed,data}){
+function Post({data}){
+    let [isRevealed,setIsRevealed] = React.useState(false);
+
+
     let page = 
-    <div className="post">
-        <AccountBar account_name={data.account} profile_picture={data.profile_picture}/>
-        <img className="content" src={data.image} alt="post content"></img>
-        <InteractionArea />
-        <Likes count={data.likes}/>
-        <Caption account_name={data.account} text={data.caption}/>
-        <Comments count={data.comments} />
+    <div className="post postregular">
+            <AccountBar account_name={data.account} profile_picture={data.profile_picture}/>
+            <img className="content" src={data.image} alt="post content"></img>
+            <InteractionArea isRevealed={isRevealed} func={function(){
+                setIsRevealed(revealed => !revealed);
+            }}/>
+            <Likes count={data.likes}/>
+            <Caption account_name={data.account} text={data.caption}/>
+            <Comments count={data.comments} />
     </div>
 
-    if (revealed){
+    if (isRevealed){
         page =
-        <div className="post">
-            <AccountBar account_name={data.account} profile_picture={data.profile_picture}/>
+        <div className="post postinformation">
+            <AccountBar 
+                account_name={data.account}
+                profile_picture={data.profile_picture}
+                isRevealed={isRevealed}
+                func={function(){
+                    setIsRevealed(revealed => !revealed);
+                }}
+            />
+
+
             <div className="postdata">
-                <h2 className="postdata--h2">Why am I seeing this post?</h2>
+                <h2 className="postdata--h2">Why is your child seeing this post?</h2>
 
                 <LikeInformation 
                     topic={data.topic} 

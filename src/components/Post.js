@@ -1,5 +1,6 @@
 import '../css/Post.css';
 import React from "react";
+import autoAnimate from '@formkit/auto-animate';
 
 import AccountBar from "./AccountBar";
 import InteractionArea from "./InteractionArea";
@@ -12,12 +13,21 @@ import PopularityInformation from "./PopularityInformation";
 import InteractionInformation from "./InteractionInformation";
 import LikeInformation from "./LikeInformation";
 
+
 function Post({data}){
     let [isRevealed,setIsRevealed] = React.useState(false);
 
+    let parentRef = React.useRef();
+
+    React.useEffect(() => {
+        if (parentRef.current) {
+            autoAnimate(parentRef.current);
+        }
+    },[parentRef]);
+
 
     let page = 
-    <div className="post postregular">
+    <div ref={parentRef} className="post postregular">
             <AccountBar account_name={data.account} profile_picture={data.profile_picture}/>
             <img className="content" src={data.image} alt="post content"></img>
             <InteractionArea isRevealed={isRevealed} func={function(){
@@ -30,7 +40,7 @@ function Post({data}){
 
     if (isRevealed){
         page =
-        <div className="post postinformation">
+        <div ref={parentRef} className="post postinformation">
             <AccountBar 
                 account_name={data.account}
                 profile_picture={data.profile_picture}

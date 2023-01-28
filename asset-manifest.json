@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/instagram-clone/static/css/main.c9888655.css",
-    "main.js": "/instagram-clone/static/js/main.fa3dd2dc.js",
+    "main.css": "/instagram-clone/static/css/main.7d447c98.css",
+    "main.js": "/instagram-clone/static/js/main.2aada0ca.js",
+    "static/media/2.jpg": "/instagram-clone/static/media/2.44102fe29f939b081638.jpg",
+    "static/media/5.jpg": "/instagram-clone/static/media/5.af87369431e065c64343.jpg",
     "static/media/1.jpg": "/instagram-clone/static/media/1.8ad5e2fdb4f0ccbd94b8.jpg",
+    "static/media/4.jpg": "/instagram-clone/static/media/4.f9240d2f41d28ae8403a.jpg",
     "static/media/instagram-logo.png": "/instagram-clone/static/media/instagram-logo.a8f79f32fe6a644607cd.png",
-    "static/media/closed-eye-icon.png": "/instagram-clone/static/media/closed-eye-icon.be5b394b08815a12b75c.png",
-    "static/media/dog-emoji.png": "/instagram-clone/static/media/dog-emoji.69d719cf57419d1f7487.png",
+    "static/media/3.jpg": "/instagram-clone/static/media/3.ddd82134ac618fa4f448.jpg",
+    "static/media/dog.png": "/instagram-clone/static/media/dog.69d719cf57419d1f7487.png",
     "static/media/home-icon.png": "/instagram-clone/static/media/home-icon.752a4d19424e7b3ffac1.png",
     "static/media/open-eye-icon.png": "/instagram-clone/static/media/open-eye-icon.8e59e27455d09d941fe8.png",
-    "static/media/linked.png": "/instagram-clone/static/media/linked.6e1bdbd923aba451decc.png",
+    "static/media/movie.png": "/instagram-clone/static/media/movie.f941b3cedf297f1a98fa.png",
+    "static/media/art.png": "/instagram-clone/static/media/art.04755000586a5003d0f7.png",
+    "static/media/space.png": "/instagram-clone/static/media/space.a071ac2ac47fe2a46d13.png",
     "static/media/graph.png": "/instagram-clone/static/media/graph.87677f14c58211eecb0c.png",
     "static/media/notifications-icon.png": "/instagram-clone/static/media/notifications-icon.c412cbaead4744166c20.png",
-    "static/media/return.png": "/instagram-clone/static/media/return.ed6e5a9636d842c62323.png",
-    "static/media/football-emoji.png": "/instagram-clone/static/media/football-emoji.e34df625acb451cd7a41.png",
+    "static/media/return.png": "/instagram-clone/static/media/return.39535d19cade727d53b4.png",
+    "static/media/football.png": "/instagram-clone/static/media/football.e34df625acb451cd7a41.png",
     "static/media/search-icon.png": "/instagram-clone/static/media/search-icon.9719045b7bf5474a64cb.png",
     "static/media/comments-icon.png": "/instagram-clone/static/media/comments-icon.1001d2a149eeb664e299.png",
+    "static/media/music.png": "/instagram-clone/static/media/music.af307e86d21894ae1a7f.png",
     "static/media/reels-icon.webp": "/instagram-clone/static/media/reels-icon.50513dbb70939427d2a2.webp",
     "static/media/create-icon.webp": "/instagram-clone/static/media/create-icon.fb8712c6be8ebcbff736.webp",
     "index.html": "/instagram-clone/index.html",
-    "main.c9888655.css.map": "/instagram-clone/static/css/main.c9888655.css.map",
-    "main.fa3dd2dc.js.map": "/instagram-clone/static/js/main.fa3dd2dc.js.map"
+    "main.7d447c98.css.map": "/instagram-clone/static/css/main.7d447c98.css.map",
+    "main.2aada0ca.js.map": "/instagram-clone/static/js/main.2aada0ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9888655.css",
-    "static/js/main.fa3dd2dc.js"
+    "static/css/main.7d447c98.css",
+    "static/js/main.2aada0ca.js"
   ]
 }

@@ -40,3 +40,21 @@
   width:32%;
   margin:30px 15px;
 }
+
+
+.staticinfo{
+  margin-top: auto;
+  border:2px solid pink;
+  margin-bottom: 3vh;
+  margin-left: 3vh;
+  display:flex;
+  flex-direction: column;
+  gap:3vh;
+}
+
+
+.staticinfo > * {
+  text-align: center;
+  display: flex;
+  overflow: visible;
+}

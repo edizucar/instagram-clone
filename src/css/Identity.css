@@ -1,0 +1,9 @@
+.identity {
+    max-width:10vw;
+    max-height:6vh;
+    border:2px solid;
+
+    /* position:fixed;
+    bottom: 4vh;
+    left: 3vh; */
+}

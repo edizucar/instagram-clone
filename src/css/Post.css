@@ -25,5 +25,8 @@
 }
 
 .postinformation {
-    /* background-color: black; */
+    border-style:ridge;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-radius: 5%;
 }

@@ -1,6 +1,7 @@
 import '../css/Post.css';
 import React from "react";
 import autoAnimate from '@formkit/auto-animate';
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 import AccountBar from "./AccountBar";
 import InteractionArea from "./InteractionArea";
@@ -17,14 +18,7 @@ import LikeInformation from "./LikeInformation";
 function Post({data}){
     let [isRevealed,setIsRevealed] = React.useState(false);
 
-    let parentRef = React.useRef();
-
-    React.useEffect(() => {
-        if (parentRef.current) {
-            autoAnimate(parentRef.current);
-        }
-    },[parentRef]);
-
+    let [parentRef, enableAnimations] = useAutoAnimate();
 
     let page = 
     <div ref={parentRef} className="post postregular">

@@ -3,7 +3,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid;
+    
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .interactioninformation > .accountprofile {
@@ -19,6 +21,12 @@
     font-size: 15px;
 }
 
+.interactioninformation--link > * {
+    margin: 0;
+}
+
+
+/* Redundant */
 .interactioninformation--link > img{
     width:30%;
 }

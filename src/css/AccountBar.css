@@ -15,11 +15,11 @@
     font-size: 0.9rem;
 }
 
-.reveal {
+.revealbutton {
     margin-left:auto;
     width:7%;
 }
 
-.reveal > img:hover {
+.revealbutton > img:hover {
     filter: opacity(50%);
 }

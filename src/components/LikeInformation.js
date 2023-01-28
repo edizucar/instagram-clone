@@ -9,14 +9,9 @@ function LikeInformation({topic,emoji,count}) {
 
 
     return (<div className="likeinformation">
-        {/* <div className='likeinformation--heart'>
-            <img src={require("../images/red-heart-emoji.png")} alt="red heart"></img>
-        </div> */}
-
-        <div className="likeinformation--arrowtext">
+        <div className="likeinformation--text">
             <p>You have liked {count}{overflow}</p>
-            {/* <img src={require("../images/right-arrow.png")} alt="right arrow"></img> */}
-            <p>{topic} posts</p>
+            <p>{topic} posts.</p>
         </div>
         
         <div className="likeinformation--emojiarea">

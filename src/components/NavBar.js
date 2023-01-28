@@ -1,6 +1,8 @@
 import '../css/NavBar.css';
 
 import NavButton from './NavButton'
+import Identity from './Identity';
+import ThirdParties from './ThirdParties';
 
 import home_icon from "../images/home-icon.png"
 import search_icon from "../images/search-icon.png"
@@ -24,6 +26,10 @@ function NavBar(){
                 <NavButton img={messages_icon} text="Messages" />
                 <NavButton img={notifications_icon} text="Notifications" />
                 <NavButton img={create_icon} text="Create" />
+            </div>
+            <div className='staticinfo'>
+                <Identity />
+                <ThirdParties />
             </div>
         </nav>
     )

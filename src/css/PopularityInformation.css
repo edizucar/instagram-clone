@@ -3,9 +3,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:20%;
-    padding-top: 4%;
-    padding-bottom: 2%;
+    gap:24%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    border-top: 2px solid;
 }
 
 .popularityinformation > div {
@@ -14,7 +15,6 @@
 
 .popularityinformation > div > img {
     width:100%;
-    
 }
 
 

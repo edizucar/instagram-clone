@@ -1,13 +1,26 @@
-.reveal {
+.revealbutton {
     padding: 0.5%; 
     display:flex;
     justify-content: center;
     border-radius: 100%;
-    background-color: blueviolet;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
-    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);   
 }
 
-.reveal > img{
+.revealbutton > img{
     width:100%;
 }
+
+.revealed {
+
+    border: 2px solid;
+    border-color: blueviolet;
+    background-color: white;
+}
+
+.notrevealed { 
+    border-style: none;
+    background-color: blueviolet;
+
+}
+
+

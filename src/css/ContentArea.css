@@ -1,4 +1,6 @@
-.postsarea {
+.contentarea {
+    margin-left: 10%;
+
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -6,8 +8,4 @@
     background-color: #FAFAFA;
 
     gap: 15px;
-
-}
-.contentarea {
-    margin-left: 18%;
 }

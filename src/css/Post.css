@@ -2,12 +2,12 @@
 
 
 .post {
-    margin-right: 20%;
+    margin-left: 10%;
     border-radius: 5px;
     background-color: white;
     border: 0.5px solid;
     border-color: rgba(0, 0, 0, 0.2);
-    width:35%;
+    width:25%;
     gap:5px;
 }
 

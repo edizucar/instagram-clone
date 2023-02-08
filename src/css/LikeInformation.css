@@ -29,6 +29,7 @@
 
 .likeinformation--text > * {
     margin: 0;
+    text-align: center;
 }
 
 /* Emoji section */

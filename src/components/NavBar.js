@@ -22,10 +22,10 @@ function NavBar(){
                 <NavButton img={home_icon} text="Home" style={{fontWeight:'bold'}} />
                 <NavButton img={search_icon} text="Search" />
                 <NavButton img={explore_icon} text="Explore" />
-                <NavButton img={reels_icon} text="Reels" />
+                {/* <NavButton img={reels_icon} text="Reels" />
                 <NavButton img={messages_icon} text="Messages" />
                 <NavButton img={notifications_icon} text="Notifications" />
-                <NavButton img={create_icon} text="Create" />
+                <NavButton img={create_icon} text="Create" /> */}
             </div>
             <div className='staticinfo'>
                 <Identity />

@@ -6,6 +6,7 @@
     
     padding-top: 10%;
     padding-bottom: 10%;
+    gap:5%;
 }
 
 .interactioninformation > .accountprofile {
@@ -23,6 +24,7 @@
 
 .interactioninformation--link > * {
     margin: 0;
+    text-align: center;
 }
 
 

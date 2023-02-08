@@ -1,9 +1,111 @@
-.identity {
-    max-width:10vw;
-    max-height:6vh;
-    border:2px solid;
+:root {
+    --arrow-offset: 35vh;
+    --identityinfo-width: 25vw;
+    --identity-color:rgba(0,0,255,1);
+    --identity-color-hover: rgba(144,0,255,0.8);
 
-    /* position:fixed;
-    bottom: 4vh;
-    left: 3vh; */
+    --blue-violet:rgba(138,43,226,1);
+    --blue-violet-a005:rgba(138,43,226,0.05);
+}
+
+.identitybutton {
+    background-color:whitesmoke;
+    border:2px solid var(--blue-violet);
+    position:relative;
+    border-radius: 7px;
+    transition: background-color 0.2s ease;
+
+}
+
+.identitybutton > h2 {
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+
+.identityinfo {
+    position:absolute;
+    background-color: var(--blue-violet-a005);
+    
+    border:2px solid var(--blue-violet);
+    top:calc(var(--arrow-offset) * -1);
+    right:calc(var(--identityinfo-width)*-1  - var(--navbar-width) + 7.5vw);
+    /* right:0; */
+    width:var(--identityinfo-width);
+    height:47vh;
+    border-radius: 2%;
+
+    transform:scale(0,0);
+    transition: transform 0.2s ease;
+    transform-origin: 0% var(--arrow-offset);
+
+    
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.identityinfo:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: var(--arrow-offset);
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid var(--blue-violet);
+    border-bottom: 13px solid transparent;
+}
+
+.identitybutton:hover .identityinfo{
+    transform:scale(1,1);
+}
+
+.identitybutton:hover {
+    background-color: var(--identity-color-hover);
+}
+
+.identityinfo--flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+
+.identityinfo--flex {
+
+    display: grid;
+    grid-template-areas:
+        "gender age"
+        "phone location";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2%;
+}
+
+.identityitem {
+    /* outline: 2px solid;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 40%;
+}
+
+.identityitem > img {
+    max-width: 50%;
+    max-height: 50%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.age > h2 {
+    font-size: 5vw;
+}
+
+.identityitem > * {
+    margin: 0;
+    text-align: center;
 }

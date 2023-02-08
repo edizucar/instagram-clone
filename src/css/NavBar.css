@@ -1,6 +1,11 @@
+:root {
+  --staticinfo-margin-left: 2vw;
+  --navbar-width:18vw;
+}
+
 .navbar {
   background-color: white;
-  width: 18%;
+  width: var(--navbar-width);
   height: 100%;
   flex-direction:column;
   position:fixed;
@@ -23,7 +28,7 @@
 }
 
 .navbutton > img{
-  width: 12%;
+  width: 10%;
   height: auto;  
   transition: width 0.2s;
 }
@@ -33,7 +38,7 @@
 }
 
 .navbutton:hover .navbuttonimg{
-  width:13%;
+  width:11%;
 }
 
 .instagram_logo {
@@ -44,17 +49,10 @@
 
 .staticinfo{
   margin-top: auto;
-  border:2px solid pink;
-  margin-bottom: 3vh;
-  margin-left: 3vh;
+  margin-bottom: 5vh;
+  margin-left: var(--staticinfo-margin-left);
+  margin-right: auto;
   display:flex;
   flex-direction: column;
   gap:3vh;
-}
-
-
-.staticinfo > * {
-  text-align: center;
-  display: flex;
-  overflow: visible;
 }

@@ -1,8 +1,139 @@
-.thirdparties {
-        width:10vw;
-        height:6vh;
-        border:2px solid;
-        /* position:fixed;
-        bottom: 10vh;
-        left:3vh; */
+:root {
+        --tp-info-width: 25vw;
+        --tp-color: rgba(255,0,0,1);
+        --tp-color-a:rgba(255,0,0,0.05);
+        --tp-arrow-offset: 25vw;
+        --tp-profile-width:15%;
+        --tp-logo-width:15%;
 }
+    
+.thirdpartiesbutton {
+        background-color:whitesmoke;
+        border:2px solid var(--blue-violet);
+        position:relative;
+        border-radius: 7px;
+
+}
+
+.thirdpartiesbutton > h2 {
+        margin: 5px 0 5px 0;
+        text-align: center;
+}
+
+.thirdpartiesinfo {
+        position:absolute;
+        outline: 2px solid var(--blue-violet);
+        background-color: var(--blue-violet-a005);
+        top:calc(var(--tp-arrow-offset) * -1 + 10px);
+        right:calc(var(--identityinfo-width)*-1  - var(--navbar-width) + 7.5vw);
+
+        width:var(--tp-info-width);
+        height:57vh;
+        border-radius: 2%;
+
+        transform:scale(0,0);
+        transition: transform 0.2s ease;
+        transform-origin: 0% var(--tp-arrow-offset);
+}
+
+.thirdpartiesinfo:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: var(--tp-arrow-offset);
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid var(--blue-violet);
+        border-bottom: 13px solid transparent;
+}
+
+.thirdpartiesbutton:hover .thirdpartiesinfo{
+        transform:scale(1,1);
+}
+
+.thirdpartiesbutton:hover {
+        background-color: var(--identity-color-hover);
+}
+
+.tp--title, .tp--desc {
+        text-align: center;
+        padding-left:20px;
+        padding-right:20px;
+}
+
+.tp--vis{
+        position: relative;
+        height: 39vh;
+        /* outline: 2px solid; */
+}
+
+
+.tp--vis > div {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* outline: 2px solid; */
+}
+
+.tp--vis > div > img {
+        width:100%;
+}
+
+.logo{
+        width: var(--tp-logo-width);
+}
+
+ .tp--gender {
+        width: var(--tp-profile-width);
+}
+
+.arrow {
+        width: 10%;
+}
+
+
+
+.tp--gender {
+        top:calc(40% - var(--tp-profile-width)/2);
+        left:calc(50% - var(--tp-profile-width)/2);
+
+
+}
+
+.microsoft.logo{
+        bottom:3%;
+        right:calc(50% - var(--tp-logo-width) / 2);
+}
+.microsoft.arrow {
+        transform:rotate(90deg);
+        top:58%;
+        left:calc(50% - 5%);
+        /* outline: 2px solid; */
+}
+
+.wish.logo{
+        top:10%;
+        right:calc(20% - var(--tp-logo-width) / 2);
+}
+.wish.arrow {
+        transform:rotate(-45deg);
+        top:30%;
+        right:30%;
+        /* outline: 2px solid; */
+}
+
+.spotify.logo{
+        top:10%;
+        left:calc(20% - var(--tp-logo-width) / 2);
+}
+.spotify.arrow {
+        transform:rotate(-135deg);
+        top:30%;
+        left:30%;
+
+        /* outline: 2px solid; */
+}
+
+

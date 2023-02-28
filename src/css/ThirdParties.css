@@ -8,11 +8,12 @@
 }
     
 .thirdpartiesbutton {
-        background-color:whitesmoke;
+        
         border:2px solid var(--blue-violet);
         position:relative;
         border-radius: 7px;
-
+        background-color:var(--identity-color-hover);
+        color: white;
 }
 
 .thirdpartiesbutton > h2 {
@@ -21,6 +22,7 @@
 }
 
 .thirdpartiesinfo {
+        color: black;
         position:absolute;
         outline: 2px solid var(--blue-violet);
         background-color: var(--blue-violet-a005);

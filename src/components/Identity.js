@@ -7,12 +7,12 @@ import location_img from "../images/location.png";
 import phone_img from "../images/phone.png";
 
 function Identity() {
-    let age = 14;
+    let age = 21;
     let phone = "Samsung";
     let os = "Android";
     let city = "Cambridge";
     let state = "Cambridgeshire"
-    let gender = "Female";
+    let gender = "Male";
     
     let gender_img = gender === "Male" ? male_img : female_img;
 

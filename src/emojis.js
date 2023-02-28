@@ -13,8 +13,6 @@ let emojis = {
     "movie":movie,
     "art":art,
     "music":music,
-
-
 }
 
 export default emojis;

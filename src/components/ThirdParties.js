@@ -8,7 +8,7 @@ import wish_img from "../images/wish.png"
 import spotify_img from "../images/spotify.png";
 
 function ThirdParties() {
-    let gender = "Female";
+    let gender = "Male";
     
     let gender_img = gender === "Male" ? male_img : female_img;
 

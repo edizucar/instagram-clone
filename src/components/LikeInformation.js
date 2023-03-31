@@ -10,7 +10,7 @@ function LikeInformation({topic,emoji,count}) {
 
     return (<div className="likeinformation">
         <div className="likeinformation--text">
-            <p>You have liked {count}{overflow}</p>
+            <p>Your child has liked {count}{overflow}</p>
             <p>{topic} posts.</p>
         </div>
         

@@ -9,7 +9,7 @@ function InteractionInformation({account_src,account_dest, profile_picture_src,p
     return (<div className="interactioninformation">
         <AccountProfile name={account_src} image={profile_picture_src}/>
         <div className="interactioninformation--link">
-            <p>You have interacted</p>
+            <p>Your child has interacted</p>
             {/* <img src={linked_icon} alt="link"></img> */}
             <p>with similar accounts</p>
         </div>

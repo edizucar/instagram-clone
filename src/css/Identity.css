@@ -23,6 +23,11 @@
     text-align: center;
 }
 
+.identityinfo > h2 {
+    text-align: center;
+    margin: 0;
+}
+
 .identityinfo {
     color: black;
     position:absolute;

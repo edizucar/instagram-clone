@@ -22,7 +22,7 @@ function Identity() {
         <h2>Identity</h2>
 
         <div className="identityinfo">
-            <h2>Your child's identity</h2>
+            <h2>Instagram stores your child's personal information</h2>
             <div className='identityinfo--flex'>
                 <div className='identityitem gender'>
                     <img src={gender_img} alt="gender"></img>

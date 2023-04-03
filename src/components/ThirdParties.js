@@ -16,8 +16,8 @@ function ThirdParties() {
     return (<div className="thirdpartiesbutton">
         <h2>Third Parties</h2>
         <div className="thirdpartiesinfo">
-            <h2 className='tp--title'>Third Parties</h2>
-            <p className='tp--desc'>Third parties gain access to your child's information.</p>
+            <h2 className='tp--title'>Third Parties & Instagram</h2>
+            <p className='tp--desc'>Instagram works with third parties to gather and share your child's data.</p>
             <div className='tp--vis'>
                 <div className='tp--gender'>
                     <img src={gender_img}></img>

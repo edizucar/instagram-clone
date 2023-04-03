@@ -9,9 +9,7 @@ function InteractionInformation({account_src,account_dest, profile_picture_src,p
     return (<div className="interactioninformation">
         <AccountProfile name={account_src} image={profile_picture_src}/>
         <div className="interactioninformation--link">
-            <p>Your child has interacted</p>
-            {/* <img src={linked_icon} alt="link"></img> */}
-            <p>with similar accounts</p>
+            <p>Instagram knows your child has interacted with similar accounts</p>
         </div>
         <AccountProfile name={account_dest} image={profile_picture_dest}/>
         

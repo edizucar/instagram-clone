@@ -46,7 +46,7 @@ function Post({data}){
 
 
             <div className="postdata">
-                <h2 className="postdata--h2">Why is your child seeing this post?</h2>
+                <h2 className="postdata--h2">Data Instagram stores about your child related to this post</h2>
 
                 <LikeInformation 
                     topic={data.topic} 

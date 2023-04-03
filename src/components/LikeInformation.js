@@ -10,8 +10,7 @@ function LikeInformation({topic,emoji,count}) {
 
     return (<div className="likeinformation">
         <div className="likeinformation--text">
-            <p>Your child has liked {count}{overflow}</p>
-            <p>{topic} posts.</p>
+            <p> Instagram knows your child has liked <strong>{count}{overflow} {topic} posts</strong></p>
         </div>
         
         <div className="likeinformation--emojiarea">

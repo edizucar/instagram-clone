@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/instagram-clone/static/css/main.3cf9532a.css",
-    "main.js": "/instagram-clone/static/js/main.9f73e23b.js",
+    "main.css": "/instagram-clone/static/css/main.e8ecf108.css",
+    "main.js": "/instagram-clone/static/js/main.a47df930.js",
+    "static/media/primeicons.svg": "/instagram-clone/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/2.jpg": "/instagram-clone/static/media/2.44102fe29f939b081638.jpg",
     "static/media/5.jpg": "/instagram-clone/static/media/5.af87369431e065c64343.jpg",
     "static/media/1.jpg": "/instagram-clone/static/media/1.8ad5e2fdb4f0ccbd94b8.jpg",
     "static/media/4.jpg": "/instagram-clone/static/media/4.f9240d2f41d28ae8403a.jpg",
     "static/media/wish.png": "/instagram-clone/static/media/wish.4b6868df4abac3689658.png",
     "static/media/instagram-logo.png": "/instagram-clone/static/media/instagram-logo.a8f79f32fe6a644607cd.png",
+    "static/media/primeicons.eot": "/instagram-clone/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/instagram-clone/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/instagram-clone/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
     "static/media/3.jpg": "/instagram-clone/static/media/3.ddd82134ac618fa4f448.jpg",
     "static/media/spotify.png": "/instagram-clone/static/media/spotify.d7c133b044286f870f22.png",
     "static/media/movie.png": "/instagram-clone/static/media/movie.63ffc55200d46c2826b1.png",
+    "static/media/primeicons.woff2": "/instagram-clone/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/dog.png": "/instagram-clone/static/media/dog.69d719cf57419d1f7487.png",
     "static/media/home-icon.png": "/instagram-clone/static/media/home-icon.752a4d19424e7b3ffac1.png",
     "static/media/open-eye-icon.png": "/instagram-clone/static/media/open-eye-icon.8e59e27455d09d941fe8.png",
@@ -27,14 +32,15 @@
     "static/media/female.png": "/instagram-clone/static/media/female.78031e2a84911fa453b3.png",
     "static/media/arrow.png": "/instagram-clone/static/media/arrow.a8bc0b5ffabe042411e1.png",
     "static/media/music.png": "/instagram-clone/static/media/music.af307e86d21894ae1a7f.png",
+    "static/media/color.png": "/instagram-clone/static/media/color.6441e63a57ccc5105bad.png",
     "static/media/reels-icon.webp": "/instagram-clone/static/media/reels-icon.50513dbb70939427d2a2.webp",
     "static/media/create-icon.webp": "/instagram-clone/static/media/create-icon.fb8712c6be8ebcbff736.webp",
     "index.html": "/instagram-clone/index.html",
-    "main.3cf9532a.css.map": "/instagram-clone/static/css/main.3cf9532a.css.map",
-    "main.9f73e23b.js.map": "/instagram-clone/static/js/main.9f73e23b.js.map"
+    "main.e8ecf108.css.map": "/instagram-clone/static/css/main.e8ecf108.css.map",
+    "main.a47df930.js.map": "/instagram-clone/static/js/main.a47df930.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cf9532a.css",
-    "static/js/main.9f73e23b.js"
+    "static/css/main.e8ecf108.css",
+    "static/js/main.a47df930.js"
   ]
 }

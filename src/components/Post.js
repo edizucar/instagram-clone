@@ -17,16 +17,29 @@ import LikeInformation from "./LikeInformation";
 
 function Post({data}){
     let [isRevealed,setIsRevealed] = React.useState(false);
+    const [toolTipText, setToolTipText] = React.useState("See your child's data Instagram stores related to this post.");
 
     let [parentRef, enableAnimations] = useAutoAnimate();
+
+
+    const func = () => {
+        setIsRevealed(revealed => !revealed);
+        setToolTipText((text) => {
+            console.log("in the thing");
+            if (text == "See your child's data Instagram stores related to this post.") {
+                return "Back to post."
+            }
+            else{
+                return "See your child's data Instagram stores related to this post."
+            }
+        });
+    };
 
     let page = 
     <div ref={parentRef} className="post postregular">
             <AccountBar account_name={data.account} profile_picture={data.profile_picture}/>
             <img className="content" src={data.image} alt="post content"></img>
-            <InteractionArea isRevealed={isRevealed} func={function(){
-                setIsRevealed(revealed => !revealed);
-            }}/>
+            <InteractionArea isRevealed={isRevealed} toolTipText={toolTipText} func={func}/>
             <Likes count={data.likes}/>
             <Caption account_name={data.account} text={data.caption}/>
             <Comments count={data.comments} />
@@ -39,9 +52,8 @@ function Post({data}){
                 account_name={data.account}
                 profile_picture={data.profile_picture}
                 isRevealed={isRevealed}
-                func={function(){
-                    setIsRevealed(revealed => !revealed);
-                }}
+                toolTipText= {toolTipText}
+                func={func}
             />
 
 
@@ -51,7 +63,8 @@ function Post({data}){
                 <LikeInformation 
                     topic={data.topic} 
                     emoji={data.topic_emoji} 
-                    count={data.related_count} 
+                    count={data.related_count}
+                    related_post_info = {data.related_post_info} 
                 />
 
 
@@ -59,7 +72,8 @@ function Post({data}){
                     account_src={data.account} 
                     account_dest={data.related_account} 
                     profile_picture_src = {data.profile_picture}
-                    profile_picture_dest = {data.related_profile_picture} 
+                    profile_picture_dest = {data.related_profile_picture}
+                    
                 />
 
                 <PopularityInformation recent_likes={data.recent_likes}/>

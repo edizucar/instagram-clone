@@ -20,6 +20,7 @@ let posts = [
         related_account:"cristiano",
         related_count:13,
         recent_likes:1023,
+        related_post_info: {day:20,month:"February", time:"10:20", url:"https://www.instagram.com/p/CqugxWHgEtU/"}
     },
     {
         account:"therealstanhere",
@@ -31,7 +32,8 @@ let posts = [
         topic:"music",
         related_account:"eminem",
         related_count:getRndInteger(3,10),
-        recent_likes:getRndInteger(1,1626)
+        recent_likes:getRndInteger(1,1626),
+        related_post_info: {day:getRndInteger(1,28),month:"January", time:"12:32", url:"https://www.instagram.com/p/Cq6SFuWM0Nx/"}
     },
     {
         account:"gazingoutwards",
@@ -44,6 +46,7 @@ let posts = [
         related_account:"nasa",
         related_count:getRndInteger(3,10),
         recent_likes:getRndInteger(1,5492),
+        related_post_info: {day:getRndInteger(1,28),month:"June", time:"9:03", url:"https://www.instagram.com/p/Cq6DWJsNoy5/"}
     },
     {
         account:"anime.is.aesthetic",
@@ -55,7 +58,8 @@ let posts = [
         topic:"movie",
         related_account:"nisino2222",
         related_count:getRndInteger(3,10),
-        recent_likes:getRndInteger(1,4223)
+        recent_likes:getRndInteger(1,4223),
+        related_post_info: {day:getRndInteger(1,28),month:"April", time:"21:28", url:"https://www.instagram.com/p/Cq758O8uTNA/"}
     },
     {
         account:"byyclouds",
@@ -67,7 +71,8 @@ let posts = [
         topic:"art",
         related_account:"xpricey",
         related_count:getRndInteger(3,10),
-        recent_likes:getRndInteger(1,469)
+        recent_likes:getRndInteger(1,469),
+        related_post_info: {day:getRndInteger(1,28),month:"December", time:"17:51", url:"https://www.instagram.com/p/Cq7pKZsvXuR/"}
     },
 
 ]
@@ -84,59 +89,9 @@ let posts = [
         related_account:,
         related_count:getRndInteger(3,10),
         recent_likes:getRndInteger()
-    },
-    {
-        account:,
-        image:,
-        caption:,
-        comments:,
-        likes:,
-        date:new Date(),
-        topic:,
-        related_account:,
-        related_count:getRndInteger(3,10),
-        recent_likes:getRndInteger()
-    },
-    {
-        account:,
-        image:,
-        caption:,
-        comments:,
-        likes:,
-        date:new Date(),
-        topic:,
-        related_account:,
-        related_count:getRndInteger(3,10),
-        recent_likes:getRndInteger()
-    },
-    {
-        account:,
-        image:,
-        caption:,
-        comments:,
-        likes:,
-        date:new Date(),
-        topic:,
-        related_account:,
-        related_count:getRndInteger(3,10),
-        recent_likes:getRndInteger()
-    },
-    {
-        account:,
-        image:,
-        caption:,
-        comments:,
-        likes:,
-        date:new Date(),
-        topic:,
-        related_account:,
-        related_count:getRndInteger(3,10),
-        recent_likes:getRndInteger()
-    },
-];
-;
+    }
 
-*/
+  */  
 
 
 

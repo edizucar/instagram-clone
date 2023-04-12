@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: center;
     border-bottom: 2px solid;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     gap:20%;
 
 }
@@ -34,14 +34,23 @@
 
 /* Emoji section */
 
-
-.likeinformation--emojiarea{
+.likeinformation--history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width:30%;
+    margin-left: 3%;
+    gap: 10px;
+}
+
+.likeinformation--emojiarea {
+    width:100%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
-    margin-left: 3%;
+   
+    
 
 }
 
@@ -69,4 +78,9 @@
 
 .likeinformation--arrowtext >img {
     width:50%;
+}
+
+
+.likeinformation > .p-dialog {
+    background-color: chartreuse;
 }

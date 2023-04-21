@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/instagram-clone/static/css/main.e8ecf108.css",
-    "main.js": "/instagram-clone/static/js/main.a47df930.js",
+    "main.css": "/instagram-clone/static/css/main.2d9ed0f7.css",
+    "main.js": "/instagram-clone/static/js/main.c1fa7f37.js",
     "static/media/primeicons.svg": "/instagram-clone/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/2.jpg": "/instagram-clone/static/media/2.44102fe29f939b081638.jpg",
     "static/media/5.jpg": "/instagram-clone/static/media/5.af87369431e065c64343.jpg",
@@ -36,11 +36,11 @@
     "static/media/reels-icon.webp": "/instagram-clone/static/media/reels-icon.50513dbb70939427d2a2.webp",
     "static/media/create-icon.webp": "/instagram-clone/static/media/create-icon.fb8712c6be8ebcbff736.webp",
     "index.html": "/instagram-clone/index.html",
-    "main.e8ecf108.css.map": "/instagram-clone/static/css/main.e8ecf108.css.map",
-    "main.a47df930.js.map": "/instagram-clone/static/js/main.a47df930.js.map"
+    "main.2d9ed0f7.css.map": "/instagram-clone/static/css/main.2d9ed0f7.css.map",
+    "main.c1fa7f37.js.map": "/instagram-clone/static/js/main.c1fa7f37.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8ecf108.css",
-    "static/js/main.a47df930.js"
+    "static/css/main.2d9ed0f7.css",
+    "static/js/main.c1fa7f37.js"
   ]
 }

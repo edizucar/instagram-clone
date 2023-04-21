@@ -1,6 +1,7 @@
 import '../css/LikeInformation.css';
 import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
+import '../css/PrimeReact_Extras.css';
 
 import React from "react";
 
@@ -30,14 +31,14 @@ function LikeInformation({topic,emoji,count,related_post_info}) {
         <div className="likeinformation--emojiarea">
             {emoji_area_list}
         </div>
-        <Button label={<strong>More Information</strong>} style={{backgroundColor:"blueviolet"}} onClick={() => setVisible(true)}/>
+        <Button className="prime-button" label={<strong>More Information</strong>} onClick={() => setVisible(true)}/>
         </div>
         <Dialog header="Instagram stores data about your child's interests" visible={visible} style={{ width: '50vw' }} onHide={() => setVisible(false)}>
             <p className="m-0">
                 Instagram stores every single like that your child has given a post. Other information such as the time and date that they liked the post and the post topic is collected in order to form an accurate profile on your child.
                 Instagram knows that your child liked a post about {topic} at {time} on the {day} of {month}.
             </p>
-            <Button label="Click here to see the post" style={{backgroundColor:"blueviolet"}} onClick={() => {window.open(url); setVisible(false)}}/>
+            <Button className="prime-button" label="Click here to see the post" onClick={() => {window.open(url); setVisible(false)}}/>
         </Dialog>
 
     </div>)
@@ -60,3 +61,5 @@ function ordinal_suffix_of(i) {
 }
 
 export default LikeInformation;
+
+//  style={{backgroundColor:"blueviolet"}}

@@ -2,7 +2,7 @@ import "../css/InteractionInformation.css"
 
 
 import AccountProfile from "./AccountProfile";
-// import linked_icon from "../images/linked.png"
+
 
 function InteractionInformation({account_src,account_dest, profile_picture_src,profile_picture_dest}) {
 
